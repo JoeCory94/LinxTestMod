@@ -16,8 +16,11 @@ public class ModItems {
 
     public static final Item COIN = registerItem("coin", new Item(new FabricItemSettings()));
 
+    public static final Item COINBAG = registerItem("coinbag", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngedientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(COIN);
+        entries.add(COINBAG);
     }
 
     private static Item registerItem(String name, Item item){
