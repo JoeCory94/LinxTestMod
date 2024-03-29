@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "linxtestmod",
+	"version": "${version}",
+	"name": "Linx Test Mod",
+	"description": "1st test mod on Fabric 1.20.1",
+	"authors": [
+		"Linx"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/linxtestmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.linx.linxtestmod.LinxTestMod"
+		],
+		"client": [
+			"net.linx.linxtestmod.LinxTestModClient"
+		],
+		"fabric-datagen": [
+			"net.linx.linxtestmod.LinxTestModDataGenerator"
+		]
+	},
+	"mixins": [
+		"linxtestmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
