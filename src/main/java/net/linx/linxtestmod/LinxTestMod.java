@@ -2,6 +2,7 @@ package net.linx.linxtestmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.linx.linxtestmod.item.ModItemGroups;
 import net.linx.linxtestmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +13,7 @@ public class LinxTestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
