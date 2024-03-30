@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "linxtestmod.coin"
+      "item": "linxtestmod:coin"
     }
   },
   "result": {
-    "item": "linxtestmod.coinbag"
+    "item": "linxtestmod:coinbag"
   }
 }
