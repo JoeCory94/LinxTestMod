@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "linxtestmod:coinbag"
+    }
+  ],
+  "result": {
+    "item": "linxtestmod:coin",
+    "count": 9
+  }
+}
